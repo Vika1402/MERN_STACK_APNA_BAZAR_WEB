@@ -13,6 +13,6 @@
     }
   ],
   "env": {
-    "STRIPE_KEY": "@stripe_secret_key"
+    "STRIPE_KEY": "@stripe_key"
   }
 }
