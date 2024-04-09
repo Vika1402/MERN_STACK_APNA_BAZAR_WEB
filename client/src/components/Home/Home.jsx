@@ -5,7 +5,7 @@ import Category from "./Category/Category";
 import Products from "../Products/Products";
 import { fetchDataFromApi } from "../../utils/api";
 import { Context } from "../../utils/context";
-
+import Galary from "./Galary/Galary.js";
 const Home = () => {
     const { products, setProducts, categories, setCategories } =
         useContext(Context);
@@ -27,6 +27,7 @@ const Home = () => {
 
     return (
         <div>
+      
             <Banner />
             <div className="main-content">
                 <div className="layout">
